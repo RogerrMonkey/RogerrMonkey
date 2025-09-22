@@ -1,23 +1,33 @@
 name: Generate Snake
+
 on:
-  schedule: [{ cron: "0 */12 * * *" }]
+  schedule:
+    - cron: "0 */12 * * *"
   workflow_dispatch:
-  push: { branches: ["main"] }
+  push:
+    branches:
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: Platane/snk@v3
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Generate GitHub contribution snake
+        uses: Platane/snk@v3
         with:
           github_user_name: RogerrMonkey
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg
-      - name: Push snake
+
+      - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4
         with:
-          target_branch: output
-          build_dir: dist
+          publish_dir: ./dist
+          publish_branch: output
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
