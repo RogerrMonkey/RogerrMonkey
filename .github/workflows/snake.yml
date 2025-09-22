@@ -27,7 +27,8 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4
         with:
-          publish_dir: ./dist
-          publish_branch: output
+          build_dir: dist
+          target_branch: output
         env:
+          # Use the default GITHUB_TOKEN, which has write access
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
