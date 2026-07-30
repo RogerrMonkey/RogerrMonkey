@@ -1,5 +1,5 @@
 <!-- ============================================================== -->
-<!--   HARSH PATIL · README v2                                      -->
+<!--   HARSH PATIL · README v3                                      -->
 <!--   builder · researcher · competitor                            -->
 <!-- ============================================================== -->
 
@@ -9,14 +9,13 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2600&pause=900&color=00D97E&center=true&vCenter=true&width=720&height=40&lines=%24+whoami;%E2%9F%A9+final-year+CSE+%C2%B7+IoT+%2B+cyber+%2B+blockchain;%E2%9F%A9+IEEE+I2ITCON+2026+author;%E2%9F%A9+shipping+TickETH+on+Polygon+Amoy;%E2%9F%A9+breaking+CTFs+as+team+Heinekens" alt="terminal-typing"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2600&pause=900&color=00D97E&center=true&vCenter=true&width=720&height=40&lines=%24+whoami;%E2%9F%A9+CSE+grad+%C2%B7+IoT+%2B+cyber+%2B+blockchain;%E2%9F%A9+IEEE+I2ITCON+2026+published+%2B+presented;%E2%9F%A9+shipping+TickETH+on+Polygon+Amoy;%E2%9F%A9+breaking+CTFs+as+team+Heinekens" alt="terminal-typing"/>
 
 <br/><br/>
 
 <a href="mailto:harshpatil.prf@gmail.com"><img src="https://img.shields.io/badge/-mail-0a0a0a?style=flat-square&labelColor=0a0a0a&color=00d97e&logo=protonmail&logoColor=00d97e" alt="email"/></a>
 <a href="https://www.linkedin.com/in/harsh-patil-rogerr"><img src="https://img.shields.io/badge/-linkedin-0a0a0a?style=flat-square&labelColor=0a0a0a&color=58a6ff&logo=linkedin&logoColor=58a6ff" alt="linkedin"/></a>
 <a href="https://drive.google.com/file/d/1fTUt6TT8P2huo6es7vqFvZDmHhBhtOKY/view?usp=sharing"><img src="https://img.shields.io/badge/-resume-0a0a0a?style=flat-square&labelColor=0a0a0a&color=f78166&logo=googledocs&logoColor=f78166" alt="resume"/></a>
-<img src="https://komarev.com/ghpvc/?username=RogerrMonkey&style=flat-square&label=visitors&color=8b949e&labelColor=0a0a0a" alt="visitors"/>
 
 </div>
 
@@ -28,10 +27,10 @@
 $ cat ~/.profile
 ─────────────────────────────────────────────────────────────────
 NAME      Harsh Patil
-ROLE      Final-year CSE @ SIES GST, Navi Mumbai · Batch 2026
+ROLE      B.E. CSE (IoT, Cybersecurity & Blockchain) · SIES GST · '26
 FOCUS     Web3 · NFT primitives · trust-minimized systems
-LOCATION  Mumbai, India  ·  IST (UTC+5:30)
-STATE     placement-prep · open to internships & research collabs
+LOCATION  Navi Mumbai, India  ·  IST (UTC+5:30)
+STATE     Capgemini offer in hand · open to Web3 / security roles
 ─────────────────────────────────────────────────────────────────
 ```
 
@@ -49,42 +48,44 @@ STATE     placement-prep · open to internships & research collabs
 
 ### 🎟️ TickETH
 **NFT-based event ticketing on Polygon Amoy.**
-Factory-clone contracts (EIP-1167), HMAC-SHA256 QR check-in with 120s TTL, SIWE auth, escrow-backed secondary market. Three live contracts on Amoy.
+EIP-1167 proxy clones (99.99% gas reduction), HMAC-SHA256 offline-resilient QR check-in, escrow-backed price-capped resale market. Load-tested at 4,800 requests via Artillery. 242/242 Hardhat tests passing.
 
-`Next.js 16` `NestJS 11` `Thirdweb v5` `BullMQ` `Redis`
+`Solidity` `NestJS` `Next.js` `Thirdweb v5` `Hardhat`
 
-<sub>📄 Submitted to **IEEE I2ITCON 2026** · Conference Record 69735</sub>
+<sub>📄 Published + orally presented at <b>IEEE I2ITCON 2026</b> · Conf. Record 69735</sub>
 
 </td>
     <td width="50%" valign="top">
 
 ### 📈 Polymarket Bot
-**Latency-arbitrage agent on prediction markets.**
-Maker liquidity provisioning + news-to-price arb + CEX/oracle lag exploitation. Smart-money consensus weighting feeds a Claude analyst brain.
+**Automated prediction-market trading agent.**
+Kelly-correct position sizing, Brier score 0.129 across 248+ tests, NVIDIA NIM (Nemotron 3 Super 120B) as primary analyst with multi-provider fallback, smart-money ROI weighting layer in progress.
 
-`Python` `Flask` `SQLite` `Polymarket CLOB` `Gamma API`
+`Python` `NVIDIA NIM` `Polymarket CLOB` `Gamma API`
 
-<sub>🔧 Phase 8 · dashboard, telemetry, synthetic replay shipped</sub>
+<sub>🔧 v1.0.0-rc5 · scheduled tasks running in production</sub>
 
 </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
 
-### 🤖 AutoDev Outreach
-**Cold-outreach automation for the job hunt.**
-Local Ollama llama3-8B drafting personalized emails, GitHub scraping, Hunter.io enrichment, IMAP reply tracking — all Streamlit-controlled.
+### 🚀 JobPilot
+**Fully automated 8-phase job application system.**
+5-pass LLM resume-tailoring pipeline (JD Decoder → Gap Finder → Bullet Rewriter → Cliché Killer → Summary Writer), 75%+ ATS threshold, zero TypeScript errors across all phases.
 
-`Python` `Ollama` `BeautifulSoup` `Streamlit` `SMTP/IMAP`
+`NestJS` `BullMQ` `Redis` `Playwright` `Supabase`
 
 </td>
     <td width="50%" valign="top">
 
-### 🌱 Eco-Rewards
-**Gamified sustainability with on-chain rewards.**
-Tokenized incentives for verified eco-actions. Born from caring about Mumbai's environmental load — Green IT applied at the protocol layer.
+### 🪪 Repute
+**Gig-worker trust & income verification platform.**
+Built overnight at KLEOS 2026 (RAIT). Dual scoring flows — PDF-based and Account Aggregator simulation — both validated end-to-end pre-submission.
 
-`Solidity` `React` `IPFS` `Hardhat`
+`React Native` `Next.js` `SQLite`
+
+<sub>🎨 "Passbook & Stamp" design system</sub>
 
 </td>
   </tr>
@@ -98,7 +99,7 @@ Tokenized incentives for verified eco-actions. Born from caring about Mumbai's e
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=solidity,ts,react,nextjs,nodejs,nestjs,python,flask,postgres,redis,mongodb,docker,linux,git,github&perline=15" alt="tech stack"/>
+<img src="https://skillicons.dev/icons?i=solidity,ts,react,nextjs,nodejs,nestjs,python,postgres,redis,docker,linux,git&perline=12" alt="tech stack"/>
 
 </div>
 
@@ -108,11 +109,11 @@ Tokenized incentives for verified eco-actions. Born from caring about Mumbai's e
 ├─ web ────────────────────────────────────────────────────────┤
 │  Next.js · React · React Native (Expo) · TypeScript          │
 ├─ services ───────────────────────────────────────────────────┤
-│  NestJS · Node · Express · Python · Flask · BullMQ           │
+│  NestJS · Node · FastAPI · BullMQ · Redis                    │
 ├─ data ───────────────────────────────────────────────────────┤
-│  PostgreSQL · Supabase · Redis · SQLite · MongoDB            │
-├─ ops ────────────────────────────────────────────────────────┤
-│  Docker · Linux · Git · GitHub Actions · EAS                 │
+│  PostgreSQL · Supabase · SQLite                               │
+├─ security ───────────────────────────────────────────────────┤
+│  Slither · Mythril · OWASP Top 10 · VAPT · CTF                │
 └──────────────────────────────────────────────────────────────┘
 ```
 
@@ -124,47 +125,38 @@ Tokenized incentives for verified eco-actions. Born from caring about Mumbai's e
 
 <table align="center" width="100%">
   <tr>
-    <td align="center" width="80">🏆<br/><sub><b>2025</b></sub></td>
+    <td align="center">📄<br/><sub><b>Jul '26</b></sub></td>
     <td>
-      <b>Bytecamp '25 · 3rd Place</b><br/>
-      <sub>Navi Mumbai's biggest hackathon · 8th edition · 1000+ registrations → 40 finalist teams</sub><br/>
-      <sub>Sustainability Tech track · team <b>Heinekens</b> · SIES GST · March 15–16, 2025</sub>
+      <b>IEEE I2ITCON 2026 · published + presented</b><br/>
+      <sub>"TickETH" — NFT ticketing on Polygon · Conference Record 69735 · Paper ID 2800, DS Track · oral session</sub>
     </td>
   </tr>
   <tr>
-    <td align="center">📄<br/><sub><b>2026</b></sub></td>
+    <td align="center">🪪<br/><sub><b>Jun '26</b></sub></td>
     <td>
-      <b>IEEE I2ITCON 2026 · paper accepted</b><br/>
-      <sub>"TickETH" — NFT ticketing on Polygon · Conference Record 69735 · revised + resubmitted</sub>
+      <b>KLEOS 2026 · built Repute overnight</b><br/>
+      <sub>Gig-worker trust platform · Problem D6-PS1 · RAIT</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">🗺️<br/><sub><b>Jun '26</b></sub></td>
+    <td>
+      <b>Odoo × Parul Hackathon · built Traveloop</b><br/>
+      <sub>Multi-city travel planner · Vadodara, Gujarat</sub>
     </td>
   </tr>
   <tr>
     <td align="center">🚩<br/><sub><b>2026</b></sub></td>
     <td>
       <b>CH4KR4X2 CTF · 900 pts</b><br/>
-      <sub>Team Heinekens · 6 challenges across reverse engineering, forensics, crypto, OSINT</sub><br/>
-      <sub>Custom-VM bytecode · inode recovery · Morse → Binary → ASCII → Base64 chain</sub>
+      <sub>Team Heinekens · reverse engineering, forensics, crypto, OSINT</sub>
     </td>
   </tr>
   <tr>
-    <td align="center">🚀<br/><sub><b>2025</b></sub></td>
+    <td align="center">🏆<br/><sub><b>2025</b></sub></td>
     <td>
-      <b>TickETH v1 shipped</b><br/>
-      <sub>Live on Polygon Amoy with 3 deployed contracts + React Native companion app</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">🎲<br/><sub><b>2025</b></sub></td>
-    <td>
-      <b>Web3Wagers · MVP launched</b><br/>
-      <sub>Decentralized betting platform with on-chain settlement</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">📅<br/><sub><b>2026</b></sub></td>
-    <td>
-      <b>Odoo × Parul Hackathon · registered</b><br/>
-      <sub>June 13–14 · Vadodara, Gujarat · next checkpoint</sub>
+      <b>Bytecamp '25 · 3rd Place</b><br/>
+      <sub>1000+ registrations → 40 finalist teams · Sustainability Tech track · team Heinekens · SIES GST</sub>
     </td>
   </tr>
 </table>
@@ -179,20 +171,12 @@ Tokenized incentives for verified eco-actions. Born from caring about Mumbai's e
 
 <a href="https://github.com/RogerrMonkey">
   <img height="160" src="https://github-readme-stats.vercel.app/api?username=RogerrMonkey&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=00d97e&icon_color=58a6ff&text_color=c9d1d9&ring_color=00d97e" alt="github stats"/>
-  <img height="160" src="https://streak-stats.demolab.com?user=RogerrMonkey&hide_border=true&background=0D1117&stroke=0D1117&ring=00D97E&fire=F78166&currStreakLabel=00D97E&sideLabels=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E" alt="github streak"/>
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RogerrMonkey&layout=compact&hide_border=true&bg_color=0d1117&title_color=00d97e&text_color=c9d1d9&langs_count=6" alt="top languages"/>
 </a>
 
 <br/><br/>
 
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RogerrMonkey&layout=compact&hide_border=true&bg_color=0d1117&title_color=00d97e&text_color=c9d1d9&langs_count=8&card_width=445" alt="top languages"/>
-
-<br/><br/>
-
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=RogerrMonkey&bg_color=0d1117&color=c9d1d9&line=00d97e&point=58a6ff&area=true&area_color=00d97e&hide_border=true&custom_title=commits%20over%20time" alt="activity graph" width="98%"/>
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=RogerrMonkey&theme=algolia&no-frame=true&no-bg=true&row=1&column=7&margin-w=10" alt="trophies"/>
 
 </div>
 
@@ -221,14 +205,11 @@ Tokenized incentives for verified eco-actions. Born from caring about Mumbai's e
 ```
 ~/idle$ ls -la
 
-drwx------  push-pull-legs · weekly cycle · incline-walking cardio
+drwx------  push-pull-legs · weekly split · 75 hard in progress
 drwx------  electronic-music · live shows · curated playlists
-drwx------  tactical-shooters · narrative-RPGs · co-op campaigns
+drwx------  indian-cinema · serious film criticism · arthouse
 drwx------  CTFs · because nothing teaches systems like breaking them
 ```
-
-> good squads communicate. great squads adapt.
-> — applies to raids, repos, and research.
 
 <br/>
 
@@ -238,7 +219,7 @@ drwx------  CTFs · because nothing teaches systems like breaking them
 
 <div align="center">
 
-<sub>open to: <b>research collabs · Web3 internships · hackathon teammates · IEEE co-authors</b></sub>
+<sub>open to: <b>Web3 internships · security roles · research collabs · hackathon teammates</b></sub>
 
 <br/><br/>
 
